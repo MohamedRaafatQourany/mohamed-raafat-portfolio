@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mohammed Raafat - Portfolio Website
+
+A modern, creative portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🎨 **Modern Design**: Beautiful gradient backgrounds and smooth animations
+- 📱 **Fully Responsive**: Works perfectly on all devices
+- ⚡ **Performance Optimized**: Built with Next.js for fast loading
+- 🎭 **Smooth Animations**: Powered by Framer Motion
+- 🎯 **SEO Friendly**: Optimized meta tags and semantic HTML
+- 📧 **Contact Form**: Easy way for clients to reach out
+
+## Sections
+
+1. **Hero Section**: Eye-catching introduction with social links
+2. **About**: Professional summary and skills showcase
+3. **Experience**: Interactive timeline of work history
+4. **Projects**: Featured portfolio projects with live links
+5. **Contact**: Contact information and message form
+
+## Technologies Used
+
+- **Next.js 16**: React framework for production
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **Framer Motion**: Animation library
+- **Lucide React**: Beautiful icon library
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone or navigate to the project:
+\`\`\`bash
+cd mohammed-portfolio
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`bash
+npm run build
+npm run start
+\`\`\`
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+To customize the portfolio with your own information:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Personal Information**: Update the contact details in `components/Contact.tsx`
+2. **Projects**: Modify the projects array in `components/Projects.tsx`
+3. **Experience**: Update work history in `components/Experience.tsx`
+4. **Skills**: Edit skills list in `components/About.tsx`
+5. **Social Links**: Update links in `components/Hero.tsx` and `components/Contact.tsx`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+### Deploy to Vercel (Recommended)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub
+2. Visit [vercel.com](https://vercel.com)
+3. Import your repository
+4. Deploy with one click
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Other Platforms
+
+The portfolio can also be deployed to:
+- Netlify
+- AWS Amplify
+- Digital Ocean
+- Any platform that supports Next.js
+
+## Portfolio Links
+
+- **Live Projects**:
+  - [BD Media](https://bdmedia.me)
+  - [Raafat Consults](https://raafatconsults.com)
+  - [Sash and Company](https://sashandcompany.com)
+  - [Roastmaster 9000](https://roastmaster9000.com)
+  - [Gulf EF](https://gulf-ef.com)
+
+- **GitHub**: [github.com/mohamedraafatqourany](https://github.com/mohamedraafatqourany)
+- **LinkedIn**: [linkedin.com/in/mohammedqourany](https://www.linkedin.com/in/mohammedqourany)
+
+## Contact
+
+Mohammed Raafat
+- Email: mohamedraafatqourany@gmail.com
+- Phone: +20 110 123 4258 / +971 509 751 644
+- Location: Cairo, Egypt
+
+## License
+
+© 2026 Mohammed Raafat. All rights reserved.
+
