@@ -7,7 +7,7 @@ export default function About() {
   const skills = [
     'React.js', 'TypeScript', 'Next.js', 'JavaScript',
     'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive Design',
-    'RESTful APIs', 'Git', 'UI/UX Design', 'Framer Motion'
+    'RESTful APIs', 'Git', 'UI/UX Design', 'Framer Motion',"Nodejs","Datadog"
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-white mb-4">Professional Summary</h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Front-End Engineer specializing in React.js and TypeScript, currently working at Breadfast 
+              Software Engineer specializing in React.js and TypeScript, currently working at Breadfast 
               on scalable, production-level web applications and dashboards.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
