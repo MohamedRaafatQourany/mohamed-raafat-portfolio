@@ -6,32 +6,32 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
+      title:"Dr. Badr Al Shibani",
+      link:"https://drbadr.com/",
+      technologies:['Wordpress']
+    },
+    {
       title: 'BD Media',
-      description: 'Modern media and marketing website with responsive design and dynamic content management.',
       link: 'https://bdmedia.me',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+      technologies: ['Wordpress'],
     },
     {
       title: 'Raafat Consults',
-      description: 'Professional consulting firm website with clean UI and seamless user experience.',
       link: 'https://raafatconsults.com',
       technologies: ['Next.js', 'React', 'CSS'],
     },
     {
       title: 'Sash and Company',
-      description: 'E-commerce platform with product catalog, shopping cart, and payment integration.',
       link: 'https://sashandcompany.com',
-      technologies: ['React', 'JavaScript', 'API Integration'],
+      technologies: ['Wordpress', 'API Integration'],
     },
     {
       title: 'Roastmaster 9000',
-      description: 'Interactive web application with unique user experience and modern design patterns.',
       link: 'https://roastmaster9000.com',
-      technologies: ['React', 'TypeScript', 'Framer Motion'],
+      technologies: ['Wordpress'],
     },
     {
       title: 'Gulf EF',
-      description: 'Educational platform with course management and student enrollment features.',
       link: 'https://gulf-ef.com',
       technologies: ['Next.js', 'React', 'Tailwind CSS'],
     },
@@ -76,9 +76,6 @@ export default function Projects() {
                   <ExternalLink className="w-5 h-5 text-white" />
                 </a>
               </div>
-
-              <p className="text-gray-300 mb-4">{project.description}</p>
-
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, i) => (
                   <span
