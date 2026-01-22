@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold text-white">
-            MR<span className="text-purple-400">.</span>
+           <Image src={'/MrLogo.png'} className=' object-contain' alt='Logo' width={100} height={50}/>
           </a>
 
           {/* Desktop Navigation */}

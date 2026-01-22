@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import Image from 'next/image';
 import { FaBehanceSquare } from "react-icons/fa";
 export default function Hero() {
   return (

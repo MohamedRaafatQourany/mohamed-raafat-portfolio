@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Linkedin, Github, Send, CheckCircle } from 'lucide-react';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -160,6 +161,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="mt-20 pt-8 border-t border-white/10 text-center text-gray-400"
         >
+                <Image src={'/MrLogo.png'} className='mx-auto object-cover h-60' alt='Logo' width={300} height={20}/>
           <p>© {new Date().getFullYear()} Mohammed Raafat. All rights reserved.</p>
         </motion.div>
       </div>
