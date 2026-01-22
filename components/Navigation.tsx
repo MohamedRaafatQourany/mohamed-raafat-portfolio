@@ -60,7 +60,7 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4">
+          <div className="md:hidden backdrop:blur-2xl mt-4 pb-4">
             {navLinks.map((link) => (
               <a
                 key={link.href}
